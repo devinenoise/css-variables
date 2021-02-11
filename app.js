@@ -1,7 +1,5 @@
 const inputs = document.querySelectorAll('.controls input');
 
-console.log(inputs);
-
 function handleUpdate() {
   const suffix = this.dataset.sizing || ''; //  or '' allows for the hex code color picker
   document.documentElement.style.setProperty(
